@@ -1,0 +1,1 @@
+<footer> Le footer inutile pour l'instant </footer>
