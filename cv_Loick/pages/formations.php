@@ -1,3 +1,4 @@
+<div style="text-align: center;">
 <?php
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=cv-Loick;charset=utf8', "root", '');
@@ -18,3 +19,4 @@ while ($donnees = $reponse->fetch()) {
 
 $reponse->closeCursor();
 ?>
+</div>

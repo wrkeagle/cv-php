@@ -8,7 +8,7 @@
     //echo $page;
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -17,20 +17,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title> <?= getTitle($page) ?> </title>
   </head>
-  <body>
+  <body class="first" style= "background-image: url('/assets/images/background-site-1.jpg');">
   <?php require 'partials/navbar.php';
         require 'includes/compteur.php';?>
 
 
-    <h1> <?= getTitle($page) ?> </h1>
+    <h1 class="center" style="color: black;"> <?= getTitle($page) ?> </h1>
 
     <div class="container">
     <?= getBody($page) ?>
     </div>
-
-    <footer>
+    <footer style="text-align: center">
         <?= getFooter($page) ?>
     </footer>
   <div>

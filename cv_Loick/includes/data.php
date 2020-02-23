@@ -65,8 +65,11 @@ $loisirs = ['Musique (FLstudio)','Sport (VTT sportif)','Voyage (Pologne, Anglete
 global $pagesTitles;
 $pagesTitles = [
     'main' => 'Mon Cv',
-    'exp' => 'Mes Exp',
+    'exp' => 'Mon experience',
     'formations' => 'Mes Formations',
     'loisirs' => 'Mes Loisirs',
+    'form' => 'Me contacter',
+    'Admin' => 'Administration',
+
 ];
 

@@ -3,3 +3,33 @@ span.coords_label {
     color: red;
     /* display: block; */
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+#Boody{
+    background-image: url("/assets/images/background-site-1.jpg");
+}
